@@ -3,7 +3,7 @@ import assert from 'assert';
 import {
     firstArray,
     secondArray,
-    testString
+    testString,
 } from './test-data';
 
 import {
@@ -39,7 +39,7 @@ describe('Get unique items from array', () => {
     });
 });
 
-describe('transform string to camelCase', () => {
+describe('Transform string to camelCase', () => {
     it('Returns a new string in camelCase', () => {
         const camelCaseStr = toCamelCase(testString);
 
@@ -47,14 +47,14 @@ describe('transform string to camelCase', () => {
     });
 });
 
-describe('transform string to kebabCase', () => {
+describe('Transform string to kebabCase', () => {
     it('Returns a new string in kebabCase', () => {
         const kebabCaseStr = toKebabCase(testString);
 
         assert.deepEqual(kebabCaseStr, 'i-am-test-case-string');
     });
 });
-describe('transform string to snakeCase', () => {
+describe('Transform string to snakeCase', () => {
     it('Returns a new string in snakeCase', () => {
         const snakeCaseStr = toSnakeCase(testString);
 

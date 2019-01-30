@@ -7,5 +7,5 @@ const unique = _.uniq;
 export {
     concat,
     compact,
-    unique
+    unique,
 }

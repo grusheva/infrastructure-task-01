@@ -1,7 +1,7 @@
 import {
     concat,
     compact,
-    unique
+    unique,
 } from './array-methods/array-methods';
 
 import {
@@ -16,5 +16,5 @@ export {
     unique,
     toCamelCase,
     toKebabCase,
-    toSnakeCase
+    toSnakeCase,
 }

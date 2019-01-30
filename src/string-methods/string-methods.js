@@ -33,5 +33,5 @@ const toSnakeCase = str => {
 export {
     toCamelCase,
     toKebabCase,
-    toSnakeCase
+    toSnakeCase,
 }

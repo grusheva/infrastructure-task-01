@@ -5,5 +5,5 @@ const testString = 'i am test case string';
 export {
     firstArray,
     secondArray,
-    testString
+    testString,
 }
