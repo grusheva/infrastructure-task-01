@@ -1,6 +1,6 @@
 {
   "name": "jsmp-infrastucture-task-01-grusheva",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CDP task",
   "main": "./lib/index.js",
   "scripts": {
